@@ -1,0 +1,54 @@
+#spring:
+#  application:
+#    name: microserver-discover-eureka
+#  security:   #  安全认证  用户认证
+#    basic:
+#      enabled: true
+#    user:
+#      name: root
+#      password: root
+#eureka:
+#  client:
+#    service-url:             # 交互地址
+#      defaultZone: http://root:root@eureka1:8000/eureka/,http://root:root@eureka2:8001/euerka/
+#    register-with-eureka: true  # 是否将自身信息注册到server中，默认为true
+#    fetch-registry: true    # 获取信息节点
+#  server:
+##    enable-self-preservation: false
+#    eviction-interval-timer-in-ms: 60000
+#
+#---
+#server:
+#  port: 8000
+#spring:
+#  profiles: eureka1
+#eureka:   # 服务注册的主机名称
+#  instance:
+#    hostname: eureka1
+#---
+#server:
+#  port: 8001
+#spring:
+#  profiles: eureka2
+#eureka:  # 服务注册的主机名称
+#  instance:
+#    hostname: eureka2
+
+spring:
+  application:
+    name: microserver-discover-eureka
+  security:   #  安全认证  用户认证
+    basic:
+      enabled: true
+    user:
+      name: root
+      password: root
+server:
+  port: 8000                    # 指定该Eureka实例的端口
+eureka:
+  client:
+    registerWithEureka: false
+    fetchRegistry: false
+    serviceUrl:
+#      defaultZone: http://rott:root@localhost:8000/eureka/
+      defaultZone: http://root:root@192.168.74.130:8000/eureka/

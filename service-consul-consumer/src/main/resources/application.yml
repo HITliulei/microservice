@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: service-consul-consumer
+
+  cloud:
+    consul:
+      discovery:
+        service-name: service-consul-provider
+      host: localhost
+      port: 8500
+
+server:
+  port: 8502
+
