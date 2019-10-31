@@ -38,11 +38,15 @@ spring:
   application:
     name: microserver-discover-eureka
   security:   #  安全认证  用户认证
-    basic:
-      enabled: true
     user:
       name: root
       password: root
+#  boot:
+#    admin:
+#      client:
+#        url: http://localhost:8090
+#        username: admin
+#        password: admin
 server:
   port: 8000                    # 指定该Eureka实例的端口
 eureka:
@@ -50,5 +54,7 @@ eureka:
     registerWithEureka: false
     fetchRegistry: false
     serviceUrl:
-#      defaultZone: http://rott:root@localhost:8000/eureka/
-      defaultZone: http://root:root@192.168.74.130:8000/eureka/
+      defaultZone: http://root:root@localhost:8000/eureka/
+#      defaultZone: http://root:root@192.168.74.130:8000/eureka/
+  instance:
+    prefer-ip-address: true

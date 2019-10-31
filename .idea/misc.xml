@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/microservice-eureka/pom.xml" />
+        <option value="$PROJECT_DIR$/microservice-zuul/pom.xml" />
+        <option value="$PROJECT_DIR$/test2/pom.xml" />
+        <option value="$PROJECT_DIR$/demo/pom.xml" />
+        <option value="$PROJECT_DIR$/service-eureka-server/pom.xml" />
+        <option value="$PROJECT_DIR$/microservice-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/service-provider-user/pom.xml" />
+        <option value="$PROJECT_DIR$/service-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/service-gateway-zuul/pom.xml" />
+        <option value="$PROJECT_DIR$/service-turbine/pom.xml" />
+        <option value="$PROJECT_DIR$/service-hystrix-dashboard/pom.xml" />
+        <option value="$PROJECT_DIR$/service-consul-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/service-consul-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/service-consul-gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/service-obtain/pom.xml" />
+        <option value="$PROJECT_DIR$/service-admin/pom.xml" />
+        <option value="$PROJECT_DIR$/service-consul-obtain/pom.xml" />
+        <option value="$PROJECT_DIR$/service-eureka-clientdemo/pom.xml" />
+        <option value="$PROJECT_DIR$/service-zookeeper-provider/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_12" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+  <component name="ScalaSbtSettings">
+    <option name="customVMPath" />
+  </component>
+</project>

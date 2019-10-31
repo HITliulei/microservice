@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: service-consul-gateway
+  cloud:
+    consul:
+      host: localhost
+      port: 8500
+      discovery:
+        service-name: service-consul-gateway
+        prefer-ip-address: true
+server:
+  port: 8504

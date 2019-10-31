@@ -22,12 +22,17 @@ eureka:
   client:
     serviceUrl:
 #      defaultZone: http://root:root@eureka1:8000/eureka/,http://root:root@eureka2:8001/euerka/
-      defaultZone: http://root:root@192.168.74.130:8000/eureka/
-#      defaultZone: http://root:root@localhost:8000/eureka/
+#      defaultZone: http://root:root@192.168.74.130:8000/eureka/
+      defaultZone: http://root:root@localhost:8000/eureka/
     healthcheck:
       enabled: true
   instance:
     prefer-ip-address: true
     lease-expiration-duration-in-seconds: 30
     lease-renewal-interval-in-seconds: 10
-
+    metadata-map:
+      my-metadata: 自定义数据
+      my-metadata1: 自定义数据1
+      my-metadata2:
+        my-metadata1: 1
+        my-metadata2: 1

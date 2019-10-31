@@ -1,0 +1,17 @@
+
+server:
+  port: 8001
+spring:
+  application:
+    name: microservice-client-demo
+eureka:
+  client:
+    service-url:
+      #      defaultZone: http://root:root@eureka1:8000/eureka/,http://root:root@eureka2:8001/euerka/
+      #      defaultZone: http://root:root@192.168.74.130:8000/eureka/
+      defaultZone: http://root:root@localhost:8000/eureka/
+  instance:
+    prefer-ip-address: true
+    metadata-map:
+      first: 1
+      second: 2

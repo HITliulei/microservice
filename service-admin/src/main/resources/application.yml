@@ -1,0 +1,39 @@
+server:
+  port: 8090
+spring:
+  application:
+    name: service-admin
+  security:   #  ��ȫ��֤  �û���֤
+    basic:
+      enabled: true
+    user:
+      name: admin
+      password: admin
+  boot:
+    admin:
+      ui:
+        title: service-admin-center
+eureka:
+  client:
+    registry-fetch-interval-seconds: 5
+    registerWithEureka: true
+    fetchRegistry: true
+    service-url:
+      #      defaultZone: http://root:root@eureka1:8000/eureka/,http://root:root@eureka2:8001/euerka/
+      #      defaultZone: http://root:root@192.168.74.130:8000/eureka/
+      defaultZone: http://root:root@localhost:8000/eureka/
+  instance:
+    prefer-ip-address: true
+    lease-renewal-interval-in-seconds: 10
+    metadata-map:
+      user:
+        name: admin
+        password: admin
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"  #<2>
+  endpoint:
+    health:
+      show-details: ALWAYS

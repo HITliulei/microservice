@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" serverName="service">
+    <serverData>
+      <paths name="service">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/home/liulei" local="$PROJECT_DIR$/service-admin" web="/" />
+            <mapping local="$PROJECT_DIR$/service-obtain" />
+            <mapping local="$PROJECT_DIR$/service-gateway-zuul" />
+            <mapping local="$PROJECT_DIR$/service-consul-gateway" />
+            <mapping local="$PROJECT_DIR$/service-consul-provider" />
+            <mapping local="$PROJECT_DIR$/service-consul-consumer" />
+            <mapping local="$PROJECT_DIR$/service-eureka-server" />
+            <mapping local="$PROJECT_DIR$/service-consumer" />
+            <mapping local="$PROJECT_DIR$/service-provider-user" />
+            <mapping local="$PROJECT_DIR$/service-turbine" />
+            <mapping local="$PROJECT_DIR$/service-hystrix-dashboard" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>

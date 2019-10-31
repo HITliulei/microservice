@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/service-admin/service-admin.iml" filepath="$PROJECT_DIR$/service-admin/service-admin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service-consul-consumer/service-consul-consumer.iml" filepath="$PROJECT_DIR$/service-consul-consumer/service-consul-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service-consul-gateway/service-consul-gateway.iml" filepath="$PROJECT_DIR$/service-consul-gateway/service-consul-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service-consul-obtain/service-consul-obtain.iml" filepath="$PROJECT_DIR$/service-consul-obtain/service-consul-obtain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service-consul-provider/service-consul-provider.iml" filepath="$PROJECT_DIR$/service-consul-provider/service-consul-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service-consumer/service-consumer.iml" filepath="$PROJECT_DIR$/service-consumer/service-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service-eureka-clientdemo/service-eureka-clientdemo.iml" filepath="$PROJECT_DIR$/service-eureka-clientdemo/service-eureka-clientdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service-eureka-server/service-eureka-server.iml" filepath="$PROJECT_DIR$/service-eureka-server/service-eureka-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service-gateway-zuul/service-gateway-zuul.iml" filepath="$PROJECT_DIR$/service-gateway-zuul/service-gateway-zuul.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service-hystrix-dashboard/service-hystrix-dashboard.iml" filepath="$PROJECT_DIR$/service-hystrix-dashboard/service-hystrix-dashboard.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service-obtain/service-obtain.iml" filepath="$PROJECT_DIR$/service-obtain/service-obtain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service-provider-user/service-provider-user.iml" filepath="$PROJECT_DIR$/service-provider-user/service-provider-user.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service-turbine/service-turbine.iml" filepath="$PROJECT_DIR$/service-turbine/service-turbine.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service-zookeeper-provider/service-zookeeper-provider.iml" filepath="$PROJECT_DIR$/service-zookeeper-provider/service-zookeeper-provider.iml" />
+    </modules>
+  </component>
+</project>

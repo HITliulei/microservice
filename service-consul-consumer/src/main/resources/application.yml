@@ -5,10 +5,19 @@ spring:
   cloud:
     consul:
       discovery:
-        service-name: service-consul-provider
+        service-name: service-consul-consumer
+        prefer-ip-address: true
+        tags: version=1.0,author=liulei
+        healthCheckPath: /info.json
+        healthCheckInterval: 5s
       host: localhost
       port: 8500
 
 server:
-  port: 8502
+  port: 8503
+
+
+feign:
+  hystrix:
+    enabled: true
 

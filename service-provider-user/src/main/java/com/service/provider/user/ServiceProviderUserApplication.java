@@ -10,9 +10,7 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 //@EnableEurekaClient 这个只针对Eureka服务注册中心
 @SpringBootApplication
 public class ServiceProviderUserApplication {
-
     public static void main(String[] args) {
         SpringApplication.run(ServiceProviderUserApplication.class, args);
     }
-
 }

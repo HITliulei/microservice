@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="test2" />
+        <module name="demo" />
+        <module name="service-consul-gateway" />
+        <module name="service-eureka-server" />
+        <module name="service-consul-obtain" />
+        <module name="service-obtain" />
+        <module name="service-consul-consumer" />
+        <module name="service-consumer" />
+        <module name="service-zookeeper-provider" />
+        <module name="service-turbine" />
+        <module name="service-provider-user" />
+        <module name="microservice-provider" />
+        <module name="service-gateway-zuul" />
+        <module name="service-consul-provider" />
+        <module name="service-hystrix-dashboard" />
+        <module name="service-admin" />
+        <module name="service-eureka-clientdemo" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="demo" target="1.8" />
+      <module name="microservice-eureka" target="1.8" />
+      <module name="microservice-provider" target="1.8" />
+      <module name="microservice-zuul" target="1.8" />
+      <module name="service-admin" target="1.8" />
+      <module name="service-concul-consumer" target="1.8" />
+      <module name="service-consul-consumer" target="1.8" />
+      <module name="service-consul-gateway" target="1.8" />
+      <module name="service-consul-obtain" target="1.8" />
+      <module name="service-consul-provider" target="1.8" />
+      <module name="service-consumer" target="1.8" />
+      <module name="service-eureka-clientdemo" target="1.8" />
+      <module name="service-eureka-server" target="1.8" />
+      <module name="service-gateway-zuul" target="1.8" />
+      <module name="service-hystrix-dashboard" target="1.8" />
+      <module name="service-obtain" target="1.8" />
+      <module name="service-provider-user" target="1.8" />
+      <module name="service-turbine" target="1.8" />
+      <module name="service-zookeeper-provider" target="1.8" />
+      <module name="test" target="1.8" />
+      <module name="test2" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="demo" options="-parameters" />
+      <module name="microservice-eureka" options="-parameters" />
+      <module name="microservice-provider" options="-parameters" />
+      <module name="microservice-zuul" options="-parameters" />
+      <module name="service-admin" options="-parameters" />
+      <module name="service-concul-consumer" options="-parameters" />
+      <module name="service-consul-consumer" options="-parameters" />
+      <module name="service-consul-gateway" options="-parameters" />
+      <module name="service-consul-obtain" options="-parameters" />
+      <module name="service-consul-provider" options="-parameters" />
+      <module name="service-consumer" options="-parameters" />
+      <module name="service-eureka-clientdemo" options="-parameters" />
+      <module name="service-eureka-server" options="-parameters" />
+      <module name="service-gateway-zuul" options="-parameters" />
+      <module name="service-hystrix-dashboard" options="-parameters" />
+      <module name="service-obtain" options="-parameters" />
+      <module name="service-provider-user" options="-parameters" />
+      <module name="service-turbine" options="-parameters" />
+      <module name="service-zookeeper-provider" options="-parameters" />
+      <module name="test" options="" />
+      <module name="test2" options="-parameters" />
+    </option>
+  </component>
+</project>

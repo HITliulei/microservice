@@ -24,5 +24,4 @@ public class ServiceEurekaServerApplication extends WebSecurityConfigurerAdapter
         // 如果是form方式,不能使用url格式登录
         http.authorizeRequests().anyRequest().authenticated().and().httpBasic();
     }
-
 }
