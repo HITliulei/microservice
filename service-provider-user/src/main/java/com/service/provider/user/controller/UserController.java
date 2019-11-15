@@ -6,6 +6,7 @@ import com.netflix.appinfo.InstanceInfo;
 import com.service.provider.user.entity.User;
 import com.service.provider.user.repository.UserRepository;
 
+import io.swagger.annotations.*;
 import org.bouncycastle.cert.ocsp.Req;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
@@ -16,6 +17,7 @@ import java.util.Map;
 
 @RestController
 @RequestMapping("/userService/")
+@Api(value = "user-provider",description = "用户微服务接口")
 public class UserController {
     @Autowired
     private UserRepository userRepository;
@@ -62,7 +64,14 @@ public class UserController {
         return this.applicationInfoManager.getInfo().getMetadata();
     }
 
-    @RequestMapping("user/{id}")
+
+
+
+    @ApiOperation(value = "用户查询")
+    @ApiImplicitParams({
+            @ApiImplicitParam(name = "id",paramType = "path",value = "用户id",dataType = "Long")
+    })
+    @GetMapping("user/{id}")
     public User findOne(@PathVariable("id")Long id){
         return this.userRepository.getOne(id);
     }
